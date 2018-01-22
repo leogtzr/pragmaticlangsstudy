@@ -1,4 +1,4 @@
-packagde examples
+package examples
 
 import me.tomassetti.minicalc.MiniCalcLexer
 import org.antlr.v4.runtime.ANTLRInputStream
