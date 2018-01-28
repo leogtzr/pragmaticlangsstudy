@@ -11,7 +11,7 @@ fun readExampleCode() = FileInputStream("examples/rectangle.mc").bufferedReader(
 
 fun main(args: Array<String>) {
     val lexer = lexerForCode(readExampleCode())
-    var token: Token? = null
+    var token: Token?
     do {
         token = lexer.nextToken()
         val typeName = MiniCalcLexer.VOCABULARY.getSymbolicName(token.type)
